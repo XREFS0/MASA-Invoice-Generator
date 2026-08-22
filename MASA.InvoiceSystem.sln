@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1D8389DF-C855-4B8D-931B-F609250E709A}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MASA.InvoiceSystem.Domain", "src\MASA.InvoiceSystem.Domain\MASA.InvoiceSystem.Domain.vbproj", "{E0084ED7-A85B-450C-829D-DD40BCC6AAE5}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MASA.InvoiceSystem.Application", "src\MASA.InvoiceSystem.Application\MASA.InvoiceSystem.Application.vbproj", "{521F0410-D242-4D54-BFD1-B6983387CC8B}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MASA.InvoiceSystem.Infrastructure", "src\MASA.InvoiceSystem.Infrastructure\MASA.InvoiceSystem.Infrastructure.vbproj", "{B07AE2F9-F2ED-41DD-9689-5FAF5D7DB3F9}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MASA.InvoiceSystem.WinForms", "src\MASA.InvoiceSystem.WinForms\MASA.InvoiceSystem.WinForms.vbproj", "{5C8E5B7F-EE63-4300-AE02-90BF46F023EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2B58B38A-77E9-4D5D-AECB-4581CFC2A64F}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MASA.InvoiceSystem.Tests", "tests\MASA.InvoiceSystem.Tests\MASA.InvoiceSystem.Tests.vbproj", "{678C135F-01AF-4875-A04B-CE9D3D94B9DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0084ED7-A85B-450C-829D-DD40BCC6AAE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0084ED7-A85B-450C-829D-DD40BCC6AAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0084ED7-A85B-450C-829D-DD40BCC6AAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0084ED7-A85B-450C-829D-DD40BCC6AAE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{521F0410-D242-4D54-BFD1-B6983387CC8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{521F0410-D242-4D54-BFD1-B6983387CC8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{521F0410-D242-4D54-BFD1-B6983387CC8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{521F0410-D242-4D54-BFD1-B6983387CC8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B07AE2F9-F2ED-41DD-9689-5FAF5D7DB3F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B07AE2F9-F2ED-41DD-9689-5FAF5D7DB3F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B07AE2F9-F2ED-41DD-9689-5FAF5D7DB3F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B07AE2F9-F2ED-41DD-9689-5FAF5D7DB3F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C8E5B7F-EE63-4300-AE02-90BF46F023EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C8E5B7F-EE63-4300-AE02-90BF46F023EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C8E5B7F-EE63-4300-AE02-90BF46F023EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C8E5B7F-EE63-4300-AE02-90BF46F023EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{678C135F-01AF-4875-A04B-CE9D3D94B9DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{678C135F-01AF-4875-A04B-CE9D3D94B9DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{678C135F-01AF-4875-A04B-CE9D3D94B9DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{678C135F-01AF-4875-A04B-CE9D3D94B9DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0084ED7-A85B-450C-829D-DD40BCC6AAE5} = {1D8389DF-C855-4B8D-931B-F609250E709A}
+		{521F0410-D242-4D54-BFD1-B6983387CC8B} = {1D8389DF-C855-4B8D-931B-F609250E709A}
+		{B07AE2F9-F2ED-41DD-9689-5FAF5D7DB3F9} = {1D8389DF-C855-4B8D-931B-F609250E709A}
+		{5C8E5B7F-EE63-4300-AE02-90BF46F023EB} = {1D8389DF-C855-4B8D-931B-F609250E709A}
+		{678C135F-01AF-4875-A04B-CE9D3D94B9DF} = {2B58B38A-77E9-4D5D-AECB-4581CFC2A64F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\MASA.InvoiceSystem.Domain\MASA.InvoiceSystem.Domain.vbproj" />
+    <ProjectReference Include="..\MASA.InvoiceSystem.Application\MASA.InvoiceSystem.Application.vbproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.79" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.11" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.11" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.11" />
+    <PackageReference Include="QuestPDF" Version="2026.7.3" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <RootNamespace>MASA.InvoiceSystem.Infrastructure</RootNamespace>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
